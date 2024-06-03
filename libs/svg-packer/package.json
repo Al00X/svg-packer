@@ -2,7 +2,7 @@
   "name": "@al00x/svg-packer",
   "author": "Al00X",
   "description": "A Command-Line tool to Pack your SVG icons into a single file!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "al00x",
