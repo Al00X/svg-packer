@@ -10,7 +10,7 @@ we could have used a caching service and logics to handle things but that would 
 to write a decent code; 
 which consist of handling multiple requests or nasty race conditions that occurred.
 
-In React (or other frameworks using jsx) we tend to generate a jsx file for each svg and customize them.
+Or in React (and other frameworks using jsx) we tend to generate a jsx file for each svg and customize them.
 
 What if we want to add a `size` property to all the icons to controls the width and height simultaneously.
 or when we want to add a `disabled` and `onClick` event handlers.
@@ -43,7 +43,7 @@ npm i @al00x/svg-packer
 Now you can call it from your terminal:
 
 ```shell
-ngx svg-packer
+npx svg-packer
 ```
 
 gather some SVGs and you are ready to go!
@@ -55,7 +55,7 @@ ___
 The simplest way to generate the *Packed SVG* is to give an input & output to start the process:
 
 ```shell
-ngx svg-packer -i ./folder/to/svg/icons -o ./folder/to/output
+npx svg-packer -i ./folder/to/svg/icons -o ./folder/to/output
 ```
 
 After running this command you will get two files in the output:
