@@ -36,11 +36,15 @@ ___
 
 Install it using your preferred package manager:
 
-    npm i @al00x/svg-packer
+```shell
+npm i @al00x/svg-packer
+```
 
 Now you can call it from your terminal:
 
-    ngx svg-packer
+```shell
+ngx svg-packer
+```
 
 gather some SVGs and you are ready to go!
 
@@ -50,7 +54,9 @@ ___
 
 The simplest way to generate the *Packed SVG* is to give an input & output to start the process:
 
-    ngx svg-packer -i ./folder/to/svg/icons -o ./folder/to/output
+```shell
+ngx svg-packer -i ./folder/to/svg/icons -o ./folder/to/output
+```
 
 After running this command you will get two files in the output:
 
