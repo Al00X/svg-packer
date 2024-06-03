@@ -1,5 +1,5 @@
 # @Al00X/SVG-Packer
-> 🗃️ _Pack all of your svg files into a single SVG file! (command-line tool)_
+> 🗃️ _Pack all your svg files into a single SVG file! (command-line tool)_
 
 ___
 
