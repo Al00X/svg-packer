@@ -18,6 +18,9 @@
     "pack",
     "utility"
   ],
+  "bin": {
+    "svg-packer": "./src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Al00X/svg-packer"
