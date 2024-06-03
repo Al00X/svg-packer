@@ -63,7 +63,7 @@ After running this command you will get two files in the output:
 - `Packed-SVG.svg` contains all the svgs you pointed to.
 - `Packed-SVG-types.d.ts` contains all the icon names for type safety (extracted from the icons filename).
 
-You are all set to use these files in way you like;
+You are all set to use these files the way you like to;
 The samples below are made for each framework to gives you a quick start!
 
 ## Samples 📔
