@@ -1,29 +1,8 @@
 {
-  "name": "@al00x/svg-packer",
-  "author": "Al00X",
-  "description": "A Command-Line tool to Pack your SVG icons into a single file!",
+  "name": "alx-svg-packer",
   "version": "1.0.0",
-  "license": "MIT",
-  "keywords": [
-    "al00x",
-    "svg",
-    "icon",
-    "svgs",
-    "icons",
-    "optimize",
-    "optimizer",
-    "cli",
-    "command-line",
-    "packer",
-    "pack",
-    "utility"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Al00X/svg-packer"
-  },
-  "homepage": "https://github.com/Al00X/svg-packer#readme",
   "private": false,
+  "license": "MIT",
   "bin": {
     "svg-packer": "dist/libs/svg-packer/src/index.js"
   },
