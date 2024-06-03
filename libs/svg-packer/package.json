@@ -22,6 +22,9 @@
     "type": "git",
     "url": "git+https://github.com/Al00X/svg-packer"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/Al00X/svg-packer#readme",
   "private": false,
   "dependencies": {

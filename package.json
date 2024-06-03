@@ -10,7 +10,8 @@
     "demo": "nx s demo-angular",
     "cli": "ts-node libs/svg-packer/src/index.ts",
     "cli:test": "npm run cli -- -i .\\apps\\demo-angular\\src\\assets\\svgs\\ -o .\\apps\\demo-angular\\src\\assets\\icons\\ -t IconNameType -to .\\apps\\demo-angular\\src\\app\\icon -tn name -n sprite",
-    "build": "nx build svg-packer"
+    "build": "nx build svg-packer",
+    "publish": "cd dist/libs/svg-packer && npm publish --access=public"
   },
   "dependencies": {
     "@angular/animations": "~17.3.0",
