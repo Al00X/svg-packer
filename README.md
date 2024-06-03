@@ -3,7 +3,7 @@
 
 ___
 
-## So What's The Point Of This?
+## So What's The Point Of This? 🧐❔
 
 Basically, the problem came up when we wanted to use svg icons in an SSR website, and cache them; well
 we could have used a caching service and logics to handle things but that would take a lot of time
@@ -17,7 +17,7 @@ or when we want to add a `disabled` and `onClick` event handlers.
 
 ___
 
-## The Solution Is Here!
+## The Solution Is Here! ✨
 
 using this package you can combine all of your svg files into a singular file, 
 each icon is inside a symbol, which then can be used by its id, 
@@ -32,7 +32,7 @@ and is accessed easily from anywhere with **_Benefits_**:
 
 ___
 
-## Getting Started
+## Getting Started 🚀
 
 Install it using your preferred package manager:
 
@@ -50,7 +50,7 @@ gather some SVGs and you are ready to go!
 
 ___
 
-## How To Use It?
+## How To Use It? 🔦
 
 The simplest way to generate the *Packed SVG* is to give an input & output to start the process:
 
@@ -66,7 +66,7 @@ After running this command you will get two files in the output:
 You are all set to use these files in way you like;
 The samples below are made for each framework to gives you a quick start!
 
-## Samples
+## Samples 📔
 
 ___
 
@@ -125,6 +125,6 @@ export default component$(
 
 ___
 
-#### Issues & Contributes are welcomed!
+#### Issues & Contributes are welcomed! 💞
 If you find a bug, got a fix, have an idea, made a new feature, or ... 
 feel free to send it right away!
