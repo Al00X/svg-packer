@@ -58,12 +58,18 @@ The simplest way to generate the *Packed SVG* is to give an input & output to st
 npx svg-packer -i ./folder/to/svg/icons -o ./folder/to/output
 ```
 
-After running this command you will get two files in the output:
+After running this command you will get two files in the output destination:
 
 - `Packed-SVG.svg` contains all the svgs you pointed to.
 - `Packed-SVG-types.d.ts` contains all the icon names for type safety (extracted from the icons filename).
 
-You are all set to use these files the way you like to;
+There's also some options to customize the process; use the command below to see the detailed usage farther more:
+
+```shell
+npx svg-packer --help
+```
+
+You are all set to use these files in anyway you like to;
 The samples below are made for each framework to gives you a quick start!
 
 ## Samples 📔
